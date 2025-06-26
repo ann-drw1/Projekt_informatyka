@@ -1,0 +1,20 @@
+# Konfiguracja eksperymentu Mackworth Clock Task
+SCREEN_RES: [1280, 720]        # Rozdzielczość ekranu
+FRAME_RATE: 60                 # Częstotliwość odświeżania (Hz)
+
+# Czas trwania eksperymentu i treningu
+SESSION_DURATION: 30          # Czas trwania głównej sesji (w minutach)
+TRAINING_DURATION: 30         # Czas trwania treningu (w sekundach)
+
+# Parametry zegara
+TRIAL_INTERVAL: 1000          # Przeskok (ms)
+STIM_PROB: 0.067              # Prawd. bodźca (ok. 4 na min => 4/60 ≈ 0.067)
+
+# Kolory (RGB)
+NEEDLE_COLOR: [1.0, 0.0, 0.0]           # Czerwony — wskazówka
+FIX_CROSS_COLOR: [0, 0, 0]             # Nieużywane, ale można wykorzystać
+STIM_COLOR: [1.0, 1.0, 1.0]            # Domyślny kolor tekstu (dla białego tła np.)
+
+# Inne
+REACTION_KEY: 'space'                 # Klawisz reakcji
+
